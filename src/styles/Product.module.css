@@ -73,7 +73,7 @@
   .sizes span {
     font-size: 14px;
     line-height: 17px;
-    color: var(--dark-sea);
+    color: var(--light);
   }
   
   .list {
@@ -91,7 +91,7 @@
   
   .size:hover,
   .size.active {
-    background: var(--violet);
+    background: var(--br);
   }
   
   .description {

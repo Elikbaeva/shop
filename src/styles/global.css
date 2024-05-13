@@ -81,23 +81,22 @@ body {
   }
   
   section {
-    background: var(--dark);
+    background: var( --sea);
     border-radius: 6px;
   }
   
   button {
-    background: var(--violet-dark);
+    background: var(--bg);
     border-radius: 6px;
     padding: 9px 20px;
     font-weight: 600;
+    transition: 0.3s;
     line-height: 20px;
     cursor: pointer;
   }
-  
-  button:hover {
-    background: var(--violet);
+  button:hover{
+    background: var(--br);
   }
-  
   h2 {
     font-weight: 600;
     font-size: 20px;

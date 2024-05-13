@@ -9,7 +9,7 @@ import { addItemToCart } from '../../features/user/userSlice'
 const SIZES = [4, 4.5, 5];
 
 const  Product = (item) => {
-    const { title, price, images, description } = item;
+    const { title, price, images } = item;
 
     const dispatch = useDispatch();
 

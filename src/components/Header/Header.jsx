@@ -6,7 +6,7 @@ import styles from "../../styles/Header.module.css";
 
 import { ROUTES } from "../../utils/routes";
 
-import LOGO from "../../images/logo.svg";
+import LOGO from "../../images/logoo.svg";
 import AVATAR from "../../images/avatar.jpeg";
 
 import { toggleForm } from "../../features/user/userSlice";

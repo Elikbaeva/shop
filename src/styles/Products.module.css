@@ -23,7 +23,7 @@
   
   .image {
     width: 100%;
-    height: 410px;
+    height: 310px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +69,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: var(--violet-dark);
+    color: var(--light);
   }
   
   .oldPrice {
@@ -77,11 +77,11 @@
     font-size: 13px;
     line-height: 16px;
     text-decoration-line: line-through;
-    color: var(--dark-sea);
+    color: var(--br);
   }
   
   .purchases {
-    color: var(--dark-sea);
+    color: var(--white);
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;

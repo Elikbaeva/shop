@@ -23,9 +23,9 @@ export default function SingleProduct() {
   }, [isLoading, isFetching, isSuccess,])
 
   useEffect(() => {
-    if (!data || !list.length) return
+    if (!data || list.length) return
     dispatch(getRelatedProducts(data.category.id))
-  }, [data, dispatch, !list.length])
+  }, [data, dispatch, list.length])
 
   return !data ? (
     <section className="preloader">Loading...</section>

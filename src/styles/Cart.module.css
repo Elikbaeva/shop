@@ -96,7 +96,7 @@
   
   .plus:hover,
   .minus:hover {
-    background: var(--violet);
+    background: var(--br);
   }
   
   .plus:hover svg,
